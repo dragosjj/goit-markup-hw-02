@@ -13,6 +13,7 @@ a.logo{
     letter-spacing: 0.03em;
     text-align: left;
     color:#2196F3;}
+    
 .main-navigation a {
     font-family: var(--text-font-family);
     font-size: 0.875em;
@@ -32,24 +33,40 @@ a.active {
     color: rgba(33, 150, 243, 1);
     }
 
-a.contacts {
+.contact-mail{
+    position: fixed;
+    top: 100;
+    right: 20px;
+    display:inline-block
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-align: right;
-    
     color: rgba(117, 117, 117, 1);
     }
-
+    .contact-tel{
+        position: fixed;
+        top: 100;
+        right: 150px;
+        display:inline-block
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        text-align: right;
+        color: rgba(117, 117, 117, 1);
+        }
+    
 /* main section */
 
 .buttons,.navi-header{
     list-style-type: none;
     padding:0;
     }
-.button,.button-active,.head,a.contacts {
+.button,.button-active,.head{
     display:inline-block;
     margin-right: 15px;
     width: 10%;
@@ -76,7 +93,7 @@ a.contacts {
     letter-spacing: 0.03em;
     }
 .button-active {
-    color:rgba(245, 244, 250, 1);
+    color:rgb(252, 252, 252);
     background-color:rgba(33, 150, 243, 1);
     font-family: var(--text-font-family);
     font-size: 16px;
@@ -96,8 +113,8 @@ color: blueviolet;
     line-height: 36px;
     letter-spacing: 0.06em;
     text-align:right
-    
 }
+
 .typeofproject {
     font-size: 14px;
     line-height: 30px;
