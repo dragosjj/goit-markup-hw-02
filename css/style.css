@@ -6,6 +6,10 @@
 /* the upper header of the page */
 
 a.logo{
+    width: 145px;   
+    height: 31px;
+    top: 24px;
+    left: 215px;    
     font-family: Raleway;
     font-size: 1.625em;
     font-weight: 700;
@@ -15,15 +19,25 @@ a.logo{
     color:#2196F3;}
     
 .main-navigation a {
+    position:fixed;
+    margin-left:15px;
+    width: 259px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
     font-family: var(--text-font-family);
     font-size: 0.875em;
     font-weight: 500;
     line-height: 1em;
     letter-spacing: 0.02em;
-    text-align: left;
- 
+    text-align: right;
+    padding:0  
     }
 a.active {
+    width: 259px;
+    height: 16px;
+    top: 32px;
+    left: 453px;
     font-family: var(--text-font-family);
     font-size: 0.875em;
     font-weight: 500;
@@ -34,10 +48,12 @@ a.active {
     }
 
 .contact-mail{
+    width: 135px;
+    height: 16px;
+    top: 32px;
+    left: 1088px;
     position: fixed;
-    top: 100;
-    right: 20px;
-    display:inline-block
+    display:inline-block;
     font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
@@ -48,9 +64,11 @@ a.active {
     }
     .contact-tel{
         position: fixed;
-        top: 100;
-        right: 150px;
-        display:inline-block
+        width: 135px;
+        height: 16px;
+        top: 32px;
+        left: 900px;
+        display:inline-block;
         font-family: Roboto;
         font-size: 14px;
         font-weight: 500;
